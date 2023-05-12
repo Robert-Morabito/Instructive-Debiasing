@@ -18,8 +18,8 @@ Where the following are:
 - "<OPENAI_API_KEY>" API key needed to use the OpenAI API, more information can be found [here](https://openai.com/blog/openai-api)
 
 Further commands that can be specified are:
-- "--models <MODELS>" GPT3 Model to run the prompts through, default is "text-davinci-003".
-- "--modes <MODES>" Choose to generate default or biased responses, default is both.
+- "--models <MODELS> " GPT3 Model to run the prompts through, default is "text-davinci-003".
+- "--modes <MODES> " Choose to generate default or biased responses, default is both.
 - "--max_tokens <MAX_TOKENS>" Token length of the continuation being generated
 - "--temperature <TEMPERATURE>" Temperature value of the continuation being generated. Affects output variability.
 - "--top_p <TOP_P>" Top P value of the continuation being generated. Affects likelihood of options to consider via nucleus sampling.
